@@ -1,0 +1,69 @@
+<acceptance-test-run title="Verify the geocoding api gives response as per the request parameters" name="Verify the geocoding api gives response as per the request parameters" description="" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="3827" timestamp="2018-09-26T09:58:29.845+05:30">
+  <user-story id="as-a-end-user-i-want-to-verify-google-map-api-(reverse-geocoding)" name="As a End user I want to verify Google Map Api (Reverse Geocoding)" path="GoogleApi.feature"/>
+  <tags>
+    <tag name="As a End user I want to verify Google Map Api (Reverse Geocoding)" type="feature"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>httpRequest</header>
+      <header>resource</header>
+      <header>input_fields</header>
+      <header>input_values</header>
+      <header>expected_fields</header>
+      <header>expected_values</header>
+      <header>field</header>
+      <header>expValue</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>Api_Url</value>
+        <value>comments</value>
+        <value>postId</value>
+        <value>1</value>
+        <value>postId__id__name__email</value>
+        <value>1__1__id labore ex et quam laborum__Eliseo@gardner.biz</value>
+        <value>postId</value>
+        <value>5</value>
+      </row>
+      <row result="SUCCESS">
+        <value>Api_Url</value>
+        <value>comments</value>
+        <value>postId</value>
+        <value>2</value>
+        <value>postId__id__name__email</value>
+        <value>2__6__et fugit eligendi deleniti quidem qui sint nihil autem__Presley.Mueller@myrl.com</value>
+        <value>postId</value>
+        <value>5</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {httpRequest=Api_Url, resource=comments, input_fields=postId, input_values=1, expected_fields=postId__id__name__email, expected_values=1__1__id labore ex et quam laborum__Eliseo@gardner.biz, field=postId, expValue=5}" result="SUCCESS">
+    <test-group name="When I send http query request using Api_Url comments and postId as 1" result="SUCCESS">
+      <test-step result="SUCCESS" duration="1611">
+        <description>Send http request: https://jsonplaceholder.typicode.com, comments, postId, 1</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="585">
+      <description>Then I validate postId__id__name__email values as 1__1__id labore ex et quam laborum__Eliseo@gardner.biz in response of webservice</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="4">
+      <description>And I count postId occurrence in response of webservice as  5</description>
+    </test-step>
+  </test-group>
+  <test-group name="[1] {httpRequest=Api_Url, resource=comments, input_fields=postId, input_values=2, expected_fields=postId__id__name__email, expected_values=2__6__et fugit eligendi deleniti quidem qui sint nihil autem__Presley.Mueller@myrl.com, field=postId, expValue=5}" result="SUCCESS">
+    <test-group name="When I send http query request using Api_Url comments and postId as 2" result="SUCCESS">
+      <test-step result="SUCCESS" duration="672">
+        <description>Send http request: https://jsonplaceholder.typicode.com, comments, postId, 2</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="5">
+      <description>Then I validate postId__id__name__email values as 2__6__et fugit eligendi deleniti quidem qui sint nihil autem__Presley.Mueller@myrl.com in response of webservice</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1">
+      <description>And I count postId occurrence in response of webservice as  5</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="As a End user I want to verify Google Map Api (Reverse Geocoding)" skipped="0" tests="2" time="3.83" timestamp="2018-09-269 09:58:29"><testcase name="Verify the geocoding api gives response as per the request parameters"/></testsuite>
