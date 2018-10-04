@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"As a End user I want to verify Google Map Api (Reverse Geocoding)","Verify the geocoding api gives response as per the request parameters","SUCCESS","2018-09-26T09:58:29.845+05:30","0.0","3.83"
+"As a End user of the api I want to verify the json response","Verify the api gives response as per the request parameters","SUCCESS","2018-10-04T06:57:44.151+05:30","0.0","2.11"

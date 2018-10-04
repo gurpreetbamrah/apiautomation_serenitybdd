@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="steps.TestSuiteRunner" time="3.072" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="steps.TestSuiteRunner" time="1.212" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -64,12 +64,12 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="When I send http query request using Api_Url comments and postId as 1" classname="| Api_Url | comments | postId | 1 | postId__id__name__email | 1__1__id labore ex et quam laborum__Eliseo@gardner.biz | postId | 5 |" time="0.005"/>
+  <testcase name="When I send http query request using Api_Url comments and postId as 1" classname="| Api_Url | comments | postId | 1 | postId__id__name__email | 1__1__id labore ex et quam laborum__Eliseo@gardner.biz | postId | 5 |" time="0.003"/>
   <testcase name="Then I validate postId__id__name__email values as 1__1__id labore ex et quam laborum__Eliseo@gardner.biz in response of webservice" classname="| Api_Url | comments | postId | 1 | postId__id__name__email | 1__1__id labore ex et quam laborum__Eliseo@gardner.biz | postId | 5 |" time="0"/>
-  <testcase name="And I count postId occurrence in response of webservice as  5" classname="| Api_Url | comments | postId | 1 | postId__id__name__email | 1__1__id labore ex et quam laborum__Eliseo@gardner.biz | postId | 5 |" time="0.001"/>
-  <testcase name="| Api_Url | comments | postId | 1 | postId__id__name__email | 1__1__id labore ex et quam laborum__Eliseo@gardner.biz | postId | 5 |" classname="| Api_Url | comments | postId | 1 | postId__id__name__email | 1__1__id labore ex et quam laborum__Eliseo@gardner.biz | postId | 5 |" time="0.007"/>
+  <testcase name="And I count postId occurrence in response of webservice as  5" classname="| Api_Url | comments | postId | 1 | postId__id__name__email | 1__1__id labore ex et quam laborum__Eliseo@gardner.biz | postId | 5 |" time="0"/>
+  <testcase name="| Api_Url | comments | postId | 1 | postId__id__name__email | 1__1__id labore ex et quam laborum__Eliseo@gardner.biz | postId | 5 |" classname="| Api_Url | comments | postId | 1 | postId__id__name__email | 1__1__id labore ex et quam laborum__Eliseo@gardner.biz | postId | 5 |" time="0.002"/>
   <testcase name="When I send http query request using Api_Url comments and postId as 2" classname="| Api_Url | comments | postId | 2 | postId__id__name__email | 2__6__et fugit eligendi deleniti quidem qui sint nihil autem__Presley.Mueller@myrl.com | postId | 5 |" time="0"/>
-  <testcase name="Then I validate postId__id__name__email values as 2__6__et fugit eligendi deleniti quidem qui sint nihil autem__Presley.Mueller@myrl.com in response of webservice" classname="| Api_Url | comments | postId | 2 | postId__id__name__email | 2__6__et fugit eligendi deleniti quidem qui sint nihil autem__Presley.Mueller@myrl.com | postId | 5 |" time="0.001"/>
+  <testcase name="Then I validate postId__id__name__email values as 2__6__et fugit eligendi deleniti quidem qui sint nihil autem__Presley.Mueller@myrl.com in response of webservice" classname="| Api_Url | comments | postId | 2 | postId__id__name__email | 2__6__et fugit eligendi deleniti quidem qui sint nihil autem__Presley.Mueller@myrl.com | postId | 5 |" time="0"/>
   <testcase name="And I count postId occurrence in response of webservice as  5" classname="| Api_Url | comments | postId | 2 | postId__id__name__email | 2__6__et fugit eligendi deleniti quidem qui sint nihil autem__Presley.Mueller@myrl.com | postId | 5 |" time="0"/>
-  <testcase name="| Api_Url | comments | postId | 2 | postId__id__name__email | 2__6__et fugit eligendi deleniti quidem qui sint nihil autem__Presley.Mueller@myrl.com | postId | 5 |" classname="| Api_Url | comments | postId | 2 | postId__id__name__email | 2__6__et fugit eligendi deleniti quidem qui sint nihil autem__Presley.Mueller@myrl.com | postId | 5 |" time="3.058"/>
+  <testcase name="| Api_Url | comments | postId | 2 | postId__id__name__email | 2__6__et fugit eligendi deleniti quidem qui sint nihil autem__Presley.Mueller@myrl.com | postId | 5 |" classname="| Api_Url | comments | postId | 2 | postId__id__name__email | 2__6__et fugit eligendi deleniti quidem qui sint nihil autem__Presley.Mueller@myrl.com | postId | 5 |" time="1.207"/>
 </testsuite>

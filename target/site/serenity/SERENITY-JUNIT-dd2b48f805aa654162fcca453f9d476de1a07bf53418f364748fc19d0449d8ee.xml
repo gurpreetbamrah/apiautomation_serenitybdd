@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="As a End user of the api I want to verify the json response" skipped="0" tests="2" time="2.11" timestamp="2018-10-277 06:57:44"><testcase name="Verify the api gives response as per the request parameters"/></testsuite>
